@@ -5,3 +5,25 @@
 32679 -> 6
 */
 
+int num = new Random().Next(0,1000000);
+Console.WriteLine(num);
+
+if(num>=100)
+{
+    while(num >= 999)
+    {
+        num = num / 10;
+    }  
+num = num % 10;
+Console.WriteLine(num);
+}
+
+else
+{
+    Console.WriteLine("Третий цифры нет");
+}
+
+
+
+
+ 
